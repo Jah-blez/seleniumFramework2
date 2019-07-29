@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suitereg]">
+  <test thread-count="5" name="Testregistration3(failed)">
+    <classes>
+      <class name="CIPM.registration">
+        <parameter name="adminemail" value="oteebest@yahoo.com"/>
+        <parameter name="password" value="password"/>
+        <parameter name="Fname" value="james"/>
+        <parameter name="Lname" value="onwuka"/>
+        <parameter name="email" value="ja"/>
+        <methods>
+          <include name="testApplicantRegistration" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CIPM.registration -->
+      <class name="CIPM.PractitionerApplication">
+        <parameter name="adminemail" value="oteebest@yahoo.com"/>
+        <parameter name="password" value="password"/>
+        <parameter name="Fname" value="james"/>
+        <parameter name="Lname" value="onwuka"/>
+        <parameter name="email" value="ja"/>
+        <methods>
+          <include name="testPractitionerApplication"/>
+        </methods>
+      </class> <!-- CIPM.PractitionerApplication -->
+    </classes>
+  </test> <!-- Testregistration3(failed) -->
+</suite> <!-- Failed suite [Suitereg] -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suitereg">
+	<!-- Test <test name="Testregistration">
+
+		<classes>
+			<class name="CIPM.registration">
+				<parameter name="Fname" value="james"></parameter>
+				<parameter name="Lname" value="onwuka"></parameter>
+				<parameter name="email" value="ja"></parameter>
+				<parameter name="password" value="password"></parameter>
+				<parameter name="adminemail" value="oteebest@yahoo.com"></parameter>
+			</class>
+
+			<class name="CIPM.application_Student"></class>
+
+		</classes>
+
+	
+ <test name="Testregistration2">
+		<classes>
+			<class name="CIPM.registration">
+				<parameter name="Fname" value="james"></parameter>
+				<parameter name="Lname" value="onwuka"></parameter>
+				<parameter name="email" value="ja"></parameter>
+				<parameter name="password" value="password"></parameter>
+				<parameter name="adminemail" value="oteebest@yahoo.com"></parameter>
+			</class>
+
+			<class name="CIPM.application_NYSC"></class>
+
+		</classes>
+	</test> </test>-->
+
+	<test name="Testregistration3">
+		<classes>
+			<class name="CIPM.registration">
+				<parameter name="Fname" value="james"></parameter>
+				
+				<parameter name="Lname" value="onwuka"></parameter>
+				<parameter name="email" value="ja"></parameter>
+				<parameter name="password" value="password"></parameter>
+				<parameter name="adminemail" value="oteebest@yahoo.com"></parameter>
+			</class>
+
+			<class name="CIPM.PractitionerApplication"></class>
+
+		</classes>
+	</test>
+	<!-- Test
+	<test name="Testregistration4">
+		<classes>
+			<class name="CIPM.registration">
+				<parameter name="Fname" value="james"></parameter>
+				<parameter name="Lname" value="onwuka"></parameter>
+				<parameter name="email" value="ja"></parameter>
+				<parameter name="password" value="password"></parameter>
+				<parameter name="adminemail" value="oteebest@yahoo.com"></parameter>
+			</class>
+
+			<class name="CIPM.ExecutiveApplication2"></class>
+
+		</classes>
+	</test>-->
+</suite> 

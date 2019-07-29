@@ -1,0 +1,35 @@
+filepath= C:\\SeleniumFrameWork\\excel\\LAGOS.pdf
+imagepath= C:\\SeleniumFrameWork\\excel\\download (3).jpeg
+
+excelpath1= C:\\SeleniumFrameWork\\excel\\result_Template (1).xlsx
+Sheetname1 = Sheet1
+excelpath2=C:\\SeleniumFrameWork\\excel\\result_Template (2).xlsx
+Sheetname2 = Sheet1
+excelpath3=C:\\SeleniumFrameWork\\excel\\result_Template (3).xlsx
+Sheetname3 = Sheet1
+excelpath4=C:\\SeleniumFrameWork\\excel\\result_Template (4).xlsx
+Sheetname4 = Sheet1
+excelpath5=C:\\SeleniumFrameWork\\excel\\result_Template (5).xlsx
+Sheetname5 = Sheet1
+excelpath6=C:\\SeleniumFrameWork\\excel\\result_Template (6).xlsx
+Sheetname6= Sheet1
+
+excelpath= C:\\SeleniumFrameWork\\excel\\Members Details.xlsx
+Sheetname= Sheet1
+
+
+studentapproveradmin1= studpro1@yahoo.com
+studentapproverpassword1= pass
+
+studentapproveradmin2= studpro2@yahoo.com
+studentapproverpassword2= pass
+
+adminlogin1= admin@vatebra.com
+password1=pass
+
+adminlogin2= tacis4-real@gmail.com
+password2= password
+
+executiveapproveradmin1= exepro1@yahoo.com
+executiveapproverpassword1= pass
+
